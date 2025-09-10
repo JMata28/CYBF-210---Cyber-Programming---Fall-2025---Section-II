@@ -4,7 +4,7 @@
 # print("Hello World!")
 # print("Welcome to CYBF 210 - Cyber Programming!")
 
-# #Comments
+# # Comments
 # #Comments can be added by using the numeral or hashtag "#" character. Everything after the # symbol in the line will be ignored
 # For multi-line comments, use a # character before each line
 
@@ -26,14 +26,14 @@
 # print(5**2) #Exponentiation
 # print(15//4) #Floor Division
 
-#User Input
+# # User Input
 # answer = input("Choose a number from one to ten.")
 # print("You chose number: ", answer)
 # #print("Adding one to your number gives: ", answer+1) #gives error because "answer" variable is still a string
 # answer_int = int(answer)
 # print("Adding one to your number gives: ", answer_int+1)
 
-# Common string functions
+# #Common string functions
 # To get the length of a string
 # class_code = "CYBF 210"  
 # length_of_string = print(len(class_code) )
@@ -48,12 +48,12 @@
 # # \", \\, \n
 # print("The title of the Book is \"The Great Gatsby\"")
 
-# # # Formatted strings
+# # Formatted strings
 # class_code = "CYBF 210" 
 # formatted_string = f"This class is {class_code}"
 # print(formatted_string)
 
-# # # Common string methods
+# # Common string methods
 # my_sentence = "Pizza is my favorite food."
 # # Method does not change the original value of string
 # print(my_sentence.upper())
@@ -69,4 +69,24 @@
 
 # #Python Lists
 # my_list = [] #creates empty list
+# my_list.append("pencil")
+# my_list.append("pen")
+# my_list.insert(1, "eraser")
+# print(my_list)
+# my_list.remove("pencil")
+# print(my_list)
+# my_list.append("pen")
+# print(my_list.count("pen"))
 
+# # Dictionaries
+# my_dictionary = {
+#     "Jane" : 25, 
+#     "Austin" : 27,
+#     "George" : 20
+# }
+# print("Jane's age is: ", my_dictionary["Jane"])
+# print("George's age is: ", my_dictionary.get("George"))
+# print(my_dictionary.keys())
+# print(my_dictionary.values())
+# my_dictionary["Jane"] = 30
+# print("Jane's age is: ", my_dictionary["Jane"])
