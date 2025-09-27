@@ -18,3 +18,4 @@ student_3 = Student("David", "Dennison")
 student_4 = Student("Sam", "Simmons")
 
 print(Student.count) #after the Student objects are created
+print(student_1.count)
