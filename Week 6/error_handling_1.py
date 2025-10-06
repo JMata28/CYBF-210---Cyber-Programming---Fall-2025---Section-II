@@ -51,10 +51,10 @@ def example_4():
 def example_5():
     try:
         x = 5/0
-    except ZeroDivisionError:
-        print("Specific exception printed.")
     except Exception:
         print("Exception printed")
+    except ZeroDivisionError:
+        print("Specific exception printed.")
 
 #example_5()
 
@@ -63,9 +63,9 @@ def example_6():
     try: 
         x = 5/0
         #See what error messages you get from the lines below
-        # y = undeclared_variable 
+        #y = undeclared_variable 
         # my_dictionary = {}
-        #print(my_dictionary["first_key"])
+        # print(my_dictionary["first_key"])
     except Exception as e:
         print(f"This is the error message that Exception gave: {e}.")
 

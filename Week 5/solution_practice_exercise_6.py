@@ -7,4 +7,4 @@ def fibonacci(number):
         return number
     return fibonacci(number-1) + fibonacci(number-2)
 
-print(fibonacci(4))
+print(fibonacci(8))
