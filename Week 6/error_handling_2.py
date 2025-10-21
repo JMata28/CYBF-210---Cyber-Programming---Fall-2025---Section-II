@@ -23,7 +23,7 @@ def example_8():
     finally:
         print("This message prints even though there was an exception!")
 
-#example_8()
+example_8()
 
 def example_9():
     try:
@@ -33,7 +33,7 @@ def example_9():
     finally:
         print("This message will NOT print because the exception was not properly handled so we will get a Python traceback error message.")
 
-#example_9()
+example_9()
 
 #Example 10: Raising our own exceptions.
 #See what happens if I do raise an exception but it is not caught.
@@ -43,7 +43,7 @@ def example_10():
         raise Exception
     print("This line of code won't run because the program crashes since an exception was raised.")
 
-#example_10()
+example_10()
 
 #Example 11:Raising our own exceptions but catching them
 def example_11():
@@ -55,4 +55,4 @@ def example_11():
     except Exception:
         print("I raised my own exception!")
 
-example_11()
+#example_11()
