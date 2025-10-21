@@ -69,7 +69,7 @@ def example_6():
     except Exception as e:
         print(f"This is the error message that Exception gave: {e}.")
 
-#example_6()
+example_6()
 
 
 

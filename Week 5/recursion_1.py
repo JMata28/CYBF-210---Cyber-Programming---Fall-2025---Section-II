@@ -18,4 +18,4 @@ def recursive(number):
     recursive(number - 1)
     print(f"Counting number {number}")
 
-recursive(2)
+recursive(3)
