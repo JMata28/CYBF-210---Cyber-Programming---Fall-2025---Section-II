@@ -27,19 +27,19 @@ print("List after popping the new smallest: ", li)
 
 #FINDING LARGEST AND SMALLEST ELEMENTS
 # Find the 3 largest elements
-maxi = heapq.nlargest(3, li)
+maxi = heapq.nlargest(5, li)
 print("3 largest elements:", maxi)
 # Find the 3 smallest elements
-min = heapq.nsmallest(3, li)
+min = heapq.nsmallest(5, li)
 print("3 smallest elements:", min)
 
 #REPLACING AND MERGING
 # Replacing the smallest element with 5
-min = heapq.heapreplace(li, 5)
+min = heapq.heapreplace(li, 50)
 print(min)
 print("Heap after replacement: ", li)
 # Merging Heaps
-h2 = [2, 4, 6, 8]
+h2 = [23, 31, 20, 60]
 # Merging the lists
 h3 = list(heapq.merge(li, h2)) #notice how the output of heapq.merge is then made into a list
 print("Merged heap:", h3)
