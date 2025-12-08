@@ -4,6 +4,8 @@ class Node:
         self.value = value
         self.next_node = None
 
+    def __str__(self):
+        return str(self.value)
 
 # Our hashtable of 10 buckets
 my_list = [None] * 10
@@ -54,17 +56,15 @@ def contains(name):
 
     return False
 
-
 # ---- TESTING ----
 collision_add('Bob')
 collision_add('Pete')
 collision_add('Jones')
 collision_add('Lisa')
 collision_add('Siri')
-
-print("Table contents:")
-print(my_list)
+collision_add('Stuart')
 
 print("'Pete' is in the Hash Table:", contains('Pete'))
 print("'Lisa' is in the Hash Table:", contains('Lisa'))
+print("'Stuart' is in the Hash Table:", contains('Stuart'))
 print("'NotInTable' is in the Hash Table:", contains('NotInTable'))

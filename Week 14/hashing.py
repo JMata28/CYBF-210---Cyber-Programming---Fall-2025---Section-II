@@ -36,7 +36,7 @@ def add(name):
   my_list[index] = name
 
 add('Bob')
-print(my_list)
+#print(my_list)
 
 #  Add more people
 add('Pete')
@@ -50,6 +50,6 @@ def contains(name):
   index = hash_function(name)
   return my_list[index] == name
 
-print("'Pete' is in the Hash Table:", contains('Pete'))
+print("'Bartholomew' is in the Hash Table:", contains('Bartholomew'))
 
 # #So far, so good, but how do we handle collisions? Look at the code in collisions.py
