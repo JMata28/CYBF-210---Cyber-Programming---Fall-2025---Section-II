@@ -22,7 +22,7 @@ D = defaultdict(list) #creates an empty list as the value for every key by defau
 for u, v in A:
     D[u].append(v)
     #if it is an undirected graph, also point the edges the other way by uncommenting the line below
-    #D[v].append(u)
+    # D[v].append(u)
 
 print(D)
 
